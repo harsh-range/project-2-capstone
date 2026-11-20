@@ -1,0 +1,18 @@
+# Local Terraform provider binaries
+.terraform/
+
+# State files (never commit in work repos)
+*.tfstate
+*.tfstate.*
+
+# Variable files that may hold secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs and local overrides
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
